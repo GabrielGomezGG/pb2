@@ -1,0 +1,288 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a:link, a:visited, a:active{
+	text-decoration: none;
+	color: white;
+}
+
+body{
+	padding-top: 12%;
+	background-color: #E3F0FF;
+}
+
+.logo{
+	background-image: url("../image/icon/logo.png");
+	background-size: 50px 50px;
+	height: 50px;
+	width: 50px;
+	float: left;
+}
+
+header{
+	background: #9C9C9C;
+	height: 50px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+
+}
+
+
+.busqueda{
+	text-align: center;
+}
+
+.barra{
+	height: 25px;
+	width: 60%;
+}
+
+.lupa{
+	background-image: url("../image/icon/lupa.png");
+	background-size: 30px 30px;
+	height: 30px;
+	width: 30px;
+}
+
+nav{
+	background: rgb(66,140,140);
+	height: 50px;
+	border-bottom: 2px solid black;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	top: 50px;
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 15px;
+	list-style: none;
+	font-size: 20px;
+	background-color: rgb(66,155,155);
+}
+
+
+.separar{
+	clear: both;
+}
+
+.slider{
+	display: flex;
+	justify-content: center;
+	border-bottom:  2px solid black;
+	padding-bottom: 8px;
+
+}
+
+.ima_slider{
+	
+	height: 180px;
+	width: 500px;
+}
+
+#lista{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+.titulos{
+	font-size: 16px;
+	background-color: #AFABFF;
+}
+
+.imag{
+	height: 100px;
+	width: 100px;
+}
+
+.telefono{
+	background-color: #76BFFD;
+	display: flex;
+	justify-content: space-around;
+	height: 150px;
+	align-items: center;
+	text-align: center;
+	margin-bottom: 8px;
+}
+
+.tele2{
+	display: inline-flex;
+}
+
+.call{
+	height: 80px;
+	width: 80px;
+}
+
+h6{
+	font-size: 20px;
+}
+
+h5{
+	font-size: 60px;
+}
+
+h4{
+	font-size: 80px;
+}
+
+footer{
+	background-color: #7F7F7F;
+	color: white;
+	display: inline-flex;
+	width: 100%;
+	height: 70px;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.c1, .c3{
+	text-align: center;
+	font-size: 14px;
+}
+
+/*
+***************************************
+---------------MAPA
+***************************************
+*/
+
+#mapa{
+	margin-bottom: 8px;
+	display: flex;
+	justify-content: center;
+	border: 2px solid black;
+}
+
+.letra_mapa{
+	text-align: center;
+}
+
+/*
+***************************************
+---------------CONTACTO
+***************************************
+*/
+
+.contacto{
+	display: flex;
+	height: 300px;
+	text-align: center;
+	align-items: center;
+}
+
+.datos_contacto, .contactar{
+	width: 50%;
+}
+
+#contacto_mapa{
+	margin-bottom: 8px;
+	display: flex;
+	justify-content: center;
+	border: 2px solid black;
+}
+
+.letra_contacto{
+	text-align: center;
+}
+
+/*
+***************************************
+---------------LISTADO
+***************************************
+*/
+
+.enfermedades, .letra_enfermedades{
+	margin-left: 12px;
+}
+
+.bus_enfer{
+	padding-right: 250px;
+}
+
+.article_e{
+	display: inline-flex;
+	justify-content: space-around;
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+
+.article_a{
+	margin: 15px 15px 15px 15px;
+}
+
+/*
+***************************************
+---------------DETALLES
+***************************************
+*/
+
+.h1s{
+	text-align: center;
+}
+
+.article1{
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.simagen{
+	height: 200px;
+	width: 200px;
+
+}
+
+.sintomas, .detalle_formulario{
+	width: 50%;
+}
+
+.a_formulario{
+	display: inline-flex;
+	justify-content: space-around;
+}
+
+.cuadrado{
+	height: 100px;
+	width: 100px;
+	background-color: pink;
+	border: 1px solid black;
+}
+
+.ima_medidas{
+	height: 100px;
+	width: 100px;
+	background-color: pink;
+	border: 1px solid black;
+}
+
+.col1, .col2{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 5px;
+}
+
+.ima_hospital{
+	height: 50px;
+	width: 50px;
+	background-color: pink;
+	border: 1px solid black;
+}
+
+.mapa2{
+	display: flex;
+}
+
+.hospital{
+	display: flex;
+	justify-content: space-around;
+}
+
